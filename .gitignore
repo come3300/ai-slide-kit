@@ -1,0 +1,11 @@
+node_modules/
+.DS_Store
+.claude/settings.local.json
+
+# 生成物（共有したいときは消してOK）
+slides/output/*
+!slides/output/.gitkeep
+
+# 参考資料は著作物のことが多いのでコミットしない
+references/*
+!references/README.md

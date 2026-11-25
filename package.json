@@ -1,0 +1,15 @@
+{
+  "name": "ai-slide-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Markdown のアウトラインから Claude Code で PowerPoint を作るキット",
+  "scripts": {
+    "example": "node slides/build/example.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
